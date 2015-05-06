@@ -1,0 +1,16 @@
+<nav class="navbar navbar-default" ng-controller="NavCtrl">
+    <div class="collapse navbar-collapse" ng-cloak ng-show="user">
+        <ul class="nav navbar-nav">
+            <li><a href="#/">Home</a></li>
+            <li><a href="#/page1">Page1</a></li>
+            <li><a href="#/page2">Page2</a></li>
+        </ul>
+        <form class="navbar-form navbar-right">
+            <button type="button" class="btn btn-default" ng-click="logout()">Logout</button>
+        </form>
+        <div class="navbar-text navbar-right">
+            {{user.username}}
+        </div>
+    </div>
+</nav>
+<h1>Home</h1>

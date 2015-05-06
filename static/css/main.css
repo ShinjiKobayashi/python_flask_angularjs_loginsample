@@ -1,0 +1,41 @@
+.user_count{
+    width: 250px;
+    margin: 0px auto;
+}
+
+.user_count p:nth-child(1){
+    float: left;
+    font-size: 60px;
+}
+
+.user_count svg{
+    float: left;
+    margin-top: 25px;
+}
+
+.user_count p:nth-child(3){
+    float: left;
+    margin-top: 70px;
+    font-size: 60px;
+}
+
+.box{
+    height: 750px;
+}
+
+.reader_state{
+    text-align: center;
+    width: 100%;
+    min-height: 300px;
+    background: #5cb85c;
+    font-size: 100px;
+    color: #ffffff;
+}
+
+.reader_state p{
+    padding-top: 75px;
+}
+
+.glyphicon_state{
+    font-size: 35px;
+}
