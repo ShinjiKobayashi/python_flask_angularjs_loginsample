@@ -7,7 +7,7 @@ from sqlalchemy.exc import IntegrityError
 
 
 _app = Flask(__name__)
-_app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////' + path.join(path.dirname(__file__), "app",
+_app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////' + path.join(path.abspath(path.dirname(__file__)), "app",
                                                                    "database", "app.db")
 db = SQLAlchemy(_app)
 
